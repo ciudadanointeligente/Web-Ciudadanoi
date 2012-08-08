@@ -1,0 +1,209 @@
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+
+	body { padding: 20px }
+	.panel h2.title { margin-bottom: 10px }
+	noscript div { background: #ccc; border: 1px solid #900; margin: 20px 0; padding: 15px }
+
+/* Most common stuff you'll need to change */
+
+	.coda-slider-wrapper { padding: 0 }
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider { height: 200px; overflow: hidden !important; padding-right: 0px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel { width: 903px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { 
+		width: 900px;
+		overflow:hidden;
+	}
+		
+	.coda-slider-wrapper.arrows .coda-slider { margin: 0 auto; }
+	
+	.coda-slider{
+		height: 560px !important;
+		overflow: hidden;
+	}
+	
+	/* BORRA BARRA NAVEGACION!! */
+	.coda-nav{
+		display: none;
+	}
+	
+	/* Arrow styling */
+	.coda-nav-left a, .coda-nav-right a {
+		color: transparent; 
+	}
+	
+	/* Tab nav */
+	.coda-nav ul li a.current { background: #39c }
+	
+	/* Panel padding */
+	.coda-slider .panel-wrapper { padding: 20px }
+	
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.coda-nav ul li { display: inline }
+	.coda-nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.coda-slider-wrapper {
+		clear: both;
+		overflow: hidden;
+		height: 460px;
+		width: 900px;
+		margin: 0 auto; 
+	}
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left }
+	.coda-slider .panel-container { position: relative }
+	
+	.coda-nav-left, .coda-nav-right { 
+		float: left;
+		margin-top: 230px;
+		padding: 15px 10px;
+		 /* display: none; SACAR PARA QUE SE VEAN LAS FLECHITAS!!!! */
+		position: absolute;
+	}
+	
+	.coda-nav-left{
+		background:url(../images/carousel/panel-arrow-left.png) no-repeat center;
+		left: 0;
+	}
+	
+	.coda-nav-left:hover{
+		background:url(../images/carousel/panel-arrow-lefthover.png) no-repeat center;
+	}
+	
+	.coda-nav-right{
+		background:url(../images/carousel/panel-arrow-right.png) no-repeat center;
+		right: 0;
+	
+	}
+	
+	.coda-nav-right:hover{
+		background:url(../images/carousel/panel-arrow-righthover.png) no-repeat center;
+	}
+	
+	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+	
+	
+	.img_panel{
+		background: url("../images/carousel/panel.png") no-repeat scroll 0 0 transparent;
+    height: 460px;
+    position: absolute;
+    width: 906px;
+    z-index: -1;
+	}
+	/*.panel{background: url(../images/carousel/panel.png) no-repeat;}*/
+	
+	.panel table{
+		border: none;
+		width: 901px;
+	}
+	
+	.panel td tr{
+		border: none;
+	}
+.panel tr{ height: 142px;}
+.panel #tengoApps a {
+	float: right;
+	
+	bottom: -18px;
+	clear: both;
+	margin-right: 50px;
+	background-color: 	rgba(245, 241, 236, 0.54);
+}
+	
+	/* ICONOS */
+	
+	.tool{
+		background-position:0 top;
+		height: 140px;
+		width: 140px;
+		overflow: hidden;
+		background-repeat: no-repeat;
+		display:block;
+	}
+	
+	.tool:hover{
+        -moz-transform: rotate(-2deg) translate(2px, 2px);
+		-webkit-transform: rotate(-2deg) translate(2px, 2px);
+        -o-transform: rotate(-2deg) translate(2px, 2px);
+        -ms-transform: rotate(-2deg) translate(2px, 2px);
+        transform: rotate(-2deg) translate(2px, 2px); 
+	}
+	
+	.vota{
+		background-image: url(../images/carousel/icons/vota.png);
+		cursor: pointer;
+	}
+	
+	.inspector{
+		background-image: url(../images/carousel/icons/inspector.png);
+		cursor: pointer;
+	}
+	
+	
+	.acceso{
+		background-image: url(../images/carousel/icons/acceso.png);
+		cursor: pointer;
+	}
+	
+	.ddah{
+		background-image: url(../images/carousel/icons/ddah.png);
+		cursor: pointer;
+	}
+	
+	.dal{
+		background-image: url(../images/carousel/icons/dal.png);
+		cursor: pointer;
+	}
+	
+	.criik{
+		background-image: url(../images/carousel/icons/criik.png);
+		cursor: pointer;
+	}
+	
+	.elvaso{
+		background-image: url(../images/carousel/icons/elvaso.png);
+		cursor: pointer;
+	}
+	
+	.candideitorg{
+		background-image: url(../images/carousel/icons/candideitorg.png);
+		cursor: pointer;
+	}
+	
+	.globo{
+		background-image: url(../images/carousel/icons/globo.png);
+		cursor: pointer;
+	}
+	
+	.acuerdo{
+		background-image: url(../images/carousel/icons/acuerdo.png);
+		cursor: pointer;
+	}
+	
+	.alo{
+		background-image: url(../images/carousel/icons/alo.png);
+		cursor: pointer;
+	}
+	
+	.devca{
+		background-image: url(../images/carousel/icons/devca.png);
+		cursor: pointer;
+	}

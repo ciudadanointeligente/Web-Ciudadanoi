@@ -1,0 +1,773 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.homeQuote {
+	font-size: 160%;
+	color: white;
+	font-style: italic;
+	text-shadow: 1px 1px 2px #68A0AD;
+	width: 78%;
+	padding-top: 1em;
+	line-height: 28px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/* MENU SOMOS */
+
+.somos_menu a {
+	color: #81B8B8;
+	padding: 0 14px;
+	background: url(../images/greenstar.png) no-repeat left 50%, url(../images/greenstar.png) no-repeat right 50% transparent;
+	text-align: center;
+	margin: 15px 5px;
+	float: left;
+	font-size: 12px;
+	position: relative;
+	font-weight: normal;
+}
+
+.somos_menu_container {
+	margin: -4.5em auto 8em !important;
+	width: 90%;
+}
+
+footer .somos_menu_container {
+	width: 104%;
+}
+
+/* DISPLAY TEAM */
+
+.displayEquipo .fci_fichaMiembro h3 a {
+	font-size: 17px;
+	width: 175px;
+	display: block;
+	line-height: 19px;
+	margin-bottom: 0.5em;
+}
+
+.displayEquipo .queHace{
+	display: none;
+}
+
+.displayEquipo .fci_fichaMiembro {
+	padding: 10px;
+	min-height: 167px;
+}
+
+.displayEquipo .ficha-teamTaller {
+	padding: 0;
+	background: none;
+	content: url(../images/taller-iconimg.png);
+	margin: 9em 7.3em;
+	position: absolute;
+}
+
+.displayEquipo .ficha-teamGerencia {
+	padding: 0;
+	background: none;
+	content: url(../images/gerencia-iconimg.png);
+	margin: 8.7em 7.7em;
+	position: absolute;
+}
+
+.displayEquipo .ficha-teamIncidencia {
+	padding: 0;
+	background: none;
+	content: url(../images/incidencia-iconimg.png);
+	margin: 9em 7.3em;
+	position: absolute;
+}
+
+.displayEquipo .ficha-teamSeguridad {
+	padding: 0;
+	background: none;
+	content: url(../images/seguridad-iconimg.png);
+	margin: 9em 7.3em;
+	position: absolute;
+}
+
+.displayEquipo .ficha-teamRedes {
+	padding: 0;
+	background: none;
+	content: url(../images/redes-iconimg.png);
+	margin: 9em 7.3em;
+	position: absolute;
+}
+
+.displayEquipo .team-buttons {
+	margin: -0.5em 0;
+	width: 52px;
+	float: right;
+	background-color: #EBE8E3;
+}
+
+.displayEquipo li{
+	float: left;
+	margin-right: 2%;
+	width: 48%;
+	min-width: 377px;
+}
+
+.displayEquipo .ficha-team{
+	width: 100%;
+	margin: 0;
+	line-height: 18px;
+}
+
+.displayEquipo .team-mail {
+	position: absolute;
+	bottom: 10px;
+}
+
+.areavoluntariado {
+	font-size:15px;
+	font-style:italic;
+	font-weight:500;
+	text-align: end;
+	margin-top: 20px;
+	}
+	
+.areavoluntariado {
+	font-size:15px;
+	font-style:italic;
+	font-weight:500;
+	text-align: left;
+	margin-top: 10px;
+	}
+	
+.numerovol{
+	background-color: rgba(255, 255, 255, 0.38);
+    float: right;
+    font-weight: 500;
+    height: 29px;
+    margin-top: 6px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 27px;
+	}
+
+.archivePostTitleVoluntariado {
+	/*text-overflow: ellipsis;*/        
+	overflow:hidden;        
+	/*white-space:nowrap;*/
+	color: white;
+	height: 60px;
+	
+}
+	
+.archivePostTitleVoluntariado a{
+    line-height: 1em;
+    text-transform: uppercase;
+	color: white;
+	font-size:17px;
+}
+
+	
+.fecha{
+	text-align: left;
+	font-size: 11px;
+	}
+	
+.email-contacto a{
+	color:white;
+	font-style: italic;
+	}
+
+/*.email-contacto a:nth-child(4n+1){
+	color:grey;
+	}*/
+
+
+/* TEAM */
+
+.ficha-team img{
+	border-image: url(../images/border_img.png) 15 / 13px repeat;
+	/*-moz-border-image: url(../images/border_img.png) 15 / 13px repeat;
+	-webkit-border-image: url(../images/border_img.png) 15 / 13px repeat;
+	-o-border-image: url(../images/border_img.png) 15 / 13px repeat;*/
+	padding: 9px;
+}
+
+
+
+.ficha-team{
+	width: 750px;
+	min-height: 183px;
+	font-size: 13px;
+	margin: 0 auto;
+}
+
+.ficha-voluntariado{
+	min-height: 183px;
+	font-size: 13px;
+}
+
+.ficha-voluntariado hr{
+	margin-bottom: 0.4em;
+} 
+
+.ficha-voluntariado h3{
+	font-size: 14px;
+    line-height: 23px;
+	min-height: 75px;
+}
+
+.ficha-team hr{
+	margin-bottom: 1em;
+}
+
+.team-mail{
+	font-style: italic;
+	margin-top: 1em;
+	color: #8BC0CC;
+}
+
+.team-mail:hover{
+	text-decoration: none;
+	color: #8BC0CC;
+}
+
+
+.team-mail:after{
+	content: url(../images/mail.png);
+	top: 4px;
+	position: relative;
+	left: -2px;
+}
+	
+.team-thumbnail{
+	float: left;
+}
+
+.fci_fichaMiembro{
+	min-height: 177px;
+	background-color: #EBE8E3;
+	margin-left: 168px;
+	padding: 5px 15px;
+	max-width: 473px;
+}
+
+.fci_fichaVoluntariado{
+	background: url("../images/fondopostit.png") no-repeat;
+	padding: 21px;
+	width: 242px;
+	height: 270px;
+}
+
+.fci_fichaMiembro h3{
+	clear: none;
+	font-size: 19px;
+	font-family: 'SeccaStdDemoBold';
+	text-transform: uppercase;
+	margin-bottom: -0.5em;
+}
+
+.fci_fichaMiembro h3 a{
+	color: #8BC0CC;
+}
+
+.ficha-teamTaller{
+	float: right;
+	padding: 32px 15px;
+	background: url(../images/line_texture.png);
+	content: url(../images/taller-icon.png);
+}
+
+.ficha-teamIncidencia{
+	float: right;
+	padding: 30px 15px;
+	background: url(../images/line_texture.png);
+	content: url(../images/incidencia-icon.png);
+}
+
+.ficha-teamGerencia{
+	float: right;
+	padding: 30px 15px;
+	background: url(../images/line_texture.png);
+	content: url(../images/gerencia-icon.png);
+}
+
+.ficha-teamRedes{
+	float: right;
+	padding: 30px 15px;
+	background: url(../images/line_texture.png);
+	content: url(../images/redes-icon.png);
+}
+
+.ficha-teamSeguridad{
+	float: right;
+	padding: 30px 15px;
+	background: url(../images/line_texture.png);
+	content: url(../images/seguridad-icon.png);
+}
+	
+
+/* BUTTONS */
+
+.team-buttons{
+	padding: 5px 0px 0px;
+}
+
+.bt_cv{
+	float: right;
+}
+
+.bt_cv a{
+	background: url(../images/bt_cv.png) no-repeat;
+	height: 39px;
+	width: 39px;
+	text-indent: -10000px;
+	display: block;
+}
+
+.bt_cv a:hover{
+	background: url(../images/bt_cvhover.png) no-repeat;
+}
+
+.bt_twitter{
+	float: right;
+}
+
+.bt_twitter a{
+	background: url(../images/bt_twitter.png) no-repeat;
+	height: 39px;
+	width: 39px;
+	text-indent: -10000px;
+	display: block;
+}
+
+.bt_twitter a:hover{
+	background: url(../images/bt_twitterhover.png) no-repeat;
+}
+
+.bt_facebook{
+	float: right;
+}
+
+.bt_facebook a{
+	background: url(../images/bt_facebook.png) no-repeat;
+	height: 39px;
+	width: 39px;
+	text-indent: -10000px;
+	display: block;
+}
+
+.bt_facebook a:hover{
+	background: url(../images/bt_facebookhover.png) no-repeat;
+}
+
+.bt_skype{
+	float: right;
+}
+
+.bt_skype a{
+	background: url(../images/bt_skype.png) no-repeat;
+	height: 39px;
+	width: 39px;
+	text-indent: -10000px;
+	display: block;
+}
+
+.bt_skype:hover{
+	background: url(../images/bt_skypehover.png) no-repeat;
+}
+
+
+/* PROJECTS */
+
+.fci_fichaProyecto{
+	margin: 2em 0 0;
+	min-height: 185px;
+}
+
+.fci_fichaProyecto img{
+	border-image: url(../images/border_img.png) 15 / 13px repeat;
+	padding: 9px;
+}
+.archive .fci_fichaProyecto img {max-width: 95%;}
+
+a img {
+	border: 3px;
+}
+
+.fci_proyectoData{
+	min-height: 11.4em;
+	width: 57.5%;
+	background-color: #EBE8E3;
+	padding: 5px 20px 15px;
+	float: right;
+	margin-bottom: 1.5em;
+}
+
+.fci_proyectoData h3{
+	font-size: 19px;
+	color: #68A0AD;
+	font-family: 'SeccaStdDemoBold';
+}
+
+.fci_proyectoData a{
+	color: #8BC0CC;
+	font-style: italic;
+	font-size: 13px;
+}
+
+.fci_projectsList{
+	color: #767676;
+	font: 13px "Helvetica Neue","Helvetica", Arial, sans-serif;
+}
+
+.fci_proyectoUrl{
+	margin-top: -15px;
+	margin-bottom: 8px;
+}
+
+.fci_projectsList hr{
+	margin-bottom: -0.375em;
+	clear: both;
+}
+
+.fci-projectThumbnail{
+	width: 35%;
+	float: left;
+}
+
+.wrapper_headerProyecto{
+	height: 23em;
+}
+
+.fci-projectImg img{
+	border-image: url(../images/border_img.png) 15 / 13px repeat;
+	padding: 9px;
+}
+
+.fci-projectImg{
+	float: left;
+	width: 71%;
+	overflow: hidden;
+}
+
+.fci_resumenProyecto{
+	float: right;
+	width: 25%;
+	background: url(../images/line_texture.png);
+	text-align: center;
+	color: #999;
+	font-size: 13px;
+	padding: 25px 2%;
+	min-height: 262px;
+}
+
+.wpcf-field-p-incidencia-name, .wpcf-field-p-redes-name, .wpcf-field-tecnica-name {
+font-size: 1.3em;
+color: #68A0AD;
+font-family: 'SeccaStdDemoRegular';
+text-transform: uppercase;
+clear: both;
+}
+
+.wpcf-field-p-incidencia-value, .wpcf-field-p-redes-value, .wpcf-field-tecnica-value{
+	padding-bottom: 2em;
+	background: url(../images/threelines.png) bottom repeat-x;
+	margin-bottom: 1em;
+	width: 70%;
+}
+
+.fci_resumenProyecto a{
+	font-style: italic;
+}
+
+.fci_resumenProyecto a, .wpcf-field-desde-value{
+	display: block;
+	color: #68A0AD;
+	background: url(../images/hr-line.png) bottom repeat-x;
+	margin: -16px 0 5px 0;
+	padding: 10px;
+	word-break: break-all;
+}
+
+.wpcf-field-logo-del-proyecto-value{
+	margin-bottom: 15px;
+}
+	
+	
+/* Archive projects */
+
+.post-type-archive-fci_proyecto #content {
+	margin: 0 20% 0 1em;
+	width: 68%;
+}
+.post-type-archive-fci_proyecto .fci_proyectoData {
+	min-height: 8.4em;
+}
+
+.post-type-archive-fci_proyecto .fci_fichaProyecto {
+	margin: 2em 0 0;
+	min-height: 135px;
+}
+	
+/* SUMATE */
+
+#btSumate {
+}
+
+#btSumate a {
+	height: 30px;
+	color: white;
+	text-shadow: 1px 1px 0px #517A85;
+	font-size: 80%;
+	font-weight: bold;
+	font-family: arial;
+	padding-top: 8px;
+	margin-bottom: 12px;
+	line-height: 21px;
+	text-align: right;
+	margin-right: -3px;
+}
+
+#fci_infoBoard #btSumate a {
+	font-size: 85%;
+	line-height: 11px;
+}
+
+#fci_infoBoard .bt_voluntario {
+	background: url(../images/bt_voluntario_home.png) top;
+}
+
+#fci_infoBoard .bt_voluntario:hover {
+	background: url(../images/bt_voluntario_home.png) bottom;
+}
+
+.bt_voluntario {
+	background: url(../images/bt_voluntario.png) no-repeat transparent;
+	float: right;
+	padding-left: 50%;
+	padding-right: 13px;
+}
+
+.bt_voluntario:hover {
+	background: url(../images/bt_voluntario_on.png) no-repeat transparent;
+}
+
+.bt_alianza {
+	background: url(../images/bt_alianza.png) no-repeat transparent;
+	float: right;
+	padding-left: 35%;
+	padding-right: 15px;
+}
+
+.bt_alianza:hover {
+	background: url(../images/bt_alianza_on.png) no-repeat transparent;
+	
+}
+
+.bt_ofertas {
+	background: url(../images/bt_ofertas2.png) no-repeat transparent;
+	float: right;
+	padding-left: 45%;
+	padding-right: 15px;
+}
+
+
+.bt_ofertas:hover {
+	background: url(../images/bt_ofertas_hover2.png) no-repeat transparent;
+	float: right;
+	padding-left: 45%;
+	padding-right: 15px;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+#colophon #supplementary{
+	background: url(../images/threelines.png) bottom repeat-x #F5F2ED;
+	margin-top: 15px;
+}
+
+footer img{
+	max-width: 100% !important;
+}
+
+footer .widget-area {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+footer .widget-title {
+	color: #BFBFBF;
+	font-size: 13px;
+	font-weight: normal;
+	letter-spacing: 0;
+	text-transform: none;
+	font-family: 'Helvetica Neue';
+}
+
+footer #site-generator{
+	background: url(../images/footer-dots.png) bottom repeat-x #F5F2ED;
+	border-top: none;
+	height: 75px;
+}
+
+.fci-footeraddress{
+	background: url(../images/threelines.png) bottom repeat-x #F5F2ED;
+	position: relative;
+	width: 100%;
+}
+
+.fci-address{
+	margin: 0 auto;
+	padding: 1.5em 0 2em 0;
+	color: #AAA;
+	width: 450px;
+}
+
+.fci-address span {
+	margin: -10px auto;
+}
+
+/* 404 */
+
+.post.error404{
+	position: relative;
+	max-width: 1000px;
+	margin: 0 auto;
+	color: #666;
+}
+
+.imgError{
+	background: url(../images/destornilladores_error.png);
+	width: 624px;
+	height: 392px;
+	margin: 3em auto;
+}
+
+.imgError p{
+	float: right;
+	width: 200px;
+	margin: 10px -60px 0 0px;
+	line-height: 1.2em;
+}
+
+.buscadorError{
+	width: 560px;
+	margin: 0 auto 10em;
+}
+
+.buscadorError p{
+	float: left;
+	width: 200px;
+	line-height: 1.2em;
+}
+
+.error404 #main #searchform {
+	background: #F9F9F9;
+	border: 0;
+	border-width: 1px 0;
+	overflow: hidden;
+	padding: 0;
+	width: 60%;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	float: right;
+	margin: 0;
+}
+
+.ups{
+	font-size: 19px;
+	font-family: 'SeccaStdDemoBold';
+	float: right;
+	width: 28%;
+	line-height: 1.2em;
+	margin: 6.3em 1em 0 0;
+	text-align: center;
+}
+
+/* AGENDA */
+
+.numAgenda{
+	color: white;
+	float: left;
+	height: 38px;
+	width: 38px;
+	line-height: 41px;
+	text-align: center;
+	background: url(../images/fondo_numAgenda.png);
+}
+
+.fci-agendaIncidencia h4{
+	width: 25%;
+	line-height: 3em;
+	float: left;
+	text-align: center;
+	height: 41px;
+	margin-top: 3%;
+}
+
+.fci-agendaIncidencia p{
+	float: left;
+	width: 50%;
+}
+
+.fci-agendaIncidencia strong{
+	color: #333;
+	font-weight: normal;
+}
+
+.fci-agendaIncidencia li{
+	background: url(../images/hr-line.png) bottom repeat-x;
+}
+
+/* SIDEBAR */
+
+.widget_nav_menu .mit-incidencia:after {
+	background: none;
+}
+
+.widget_nav_menu .mit-taller:after {
+	background: none;
+}
+
+.widget_nav_menu .mit-redes:after {
+	background: none;
+}
+
+/* BREADCRUMBS */
+
+.breadcrumbs {
+	font-size: 12px;
+	color: white;
+	text-shadow: 1px 1px #81B8B8;
+	position: relative;
+	z-index: 100;
+}
+
+.breadcrumbs_container {
+	max-width: 1000px;
+	margin: 6px auto;
+	padding-left: 6.2em;
+	padding-right: 2.2em;
+	min-width: 500px;
+}
+
+.breadcrumbs a{
+	color: #fff;
+}
+
+.page-template-incidencia-php .breadcrumbs, .page-template-redes-php .breadcrumbs, .page-template-taller-php .breadcrumbs {
+	margin: 31em 1em;
+	position: absolute;
+	text-shadow: 1px 1px white;
+	color: #8BC0CC;
+}
+
+.page-template-incidencia-php .breadcrumbs a, .page-template-redes-php .breadcrumbs a, .page-template-taller-php .breadcrumbs a{
+	text-shadow: 1px 1px white;
+	color: #8BC0CC;
+}
