@@ -21,7 +21,7 @@
                  
               
                  <div class="fecha"> Desde: <?php echo(types_render_field("desde", array('show_name' => 'false'))); ?> </div>
-             	 <hr>
+             	 
                  
                  <div class="fecha"> Hasta: <?php echo(types_render_field("termino", array('show_name' => 'false'))); ?> </div>
              	 <hr>
