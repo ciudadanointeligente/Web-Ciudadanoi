@@ -31,7 +31,7 @@ get_header(); ?>
                         <!-- add class   wpui-tabs-vertical  to the above line for vertical tabs -->
                              
                             <!-- First tab's name -->
-                            <h3 class="wp-tab-title">Ofertas Voluntariado</h3>
+                            <h3 class="wp-tab-title">hoy Buscamos</h3>
                             <!-- First tab's contents -->
                             <div class="wp-tab-content">
                                 
@@ -69,7 +69,7 @@ get_header(); ?>
                             </div>
                          
                           
-                             <h3 class="wp-tab-title">Ofrecerme de Voluntario</h3>
+                             <h3 class="wp-tab-title">inscríbete</h3>
                              	<div class="wp-tab-content">
                                  <ul class="displayvoluntariados"> 
                                  <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDQtb3RtMGZGcnl1LVowT1ZoeUhVSlE6MQ" width="760" height="1409" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
