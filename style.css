@@ -773,7 +773,7 @@ font-size: 13px;
 	bottom: 5px;
 	background: transparent;
 	-webkit-transform: skew(-5deg) rotate(-5deg);
-	-moz-transform: rotate(-5deg) skew(-5deg) ;
+	-moz-transform: skew(-5deg) rotate(-5deg);
 	-ms-transform: skew(-5deg) rotate(-5deg);
 	-o-transform: skew(-5deg) rotate(-5deg);
 	transform: skew(-5deg) rotate(-5deg);
