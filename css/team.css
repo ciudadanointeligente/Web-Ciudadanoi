@@ -136,37 +136,43 @@ footer .somos_menu_container {
 	margin-top: 10px;
 	}
 	
-.numerovol{
+.numerovol span{
 	background-color: rgba(255, 255, 255, 0.38);
-    float: right;
-    font-weight: 500;
-    height: 29px;
-    margin-top: 6px;
-    padding-left: 10px;
-    padding-top: 5px;
-    width: 27px;
+	font-weight: 500;
+	line-height: 100%;
+	margin-top: -26px;
+	padding: 5px;
+	border-radius: 4px;
+	
 	}
+.numerovol{
+	text-align:center;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
 
 .archivePostTitleVoluntariado {
 	/*text-overflow: ellipsis;*/        
 	overflow:hidden;        
 	/*white-space:nowrap;*/
 	color: white;
-	height: 58px;
+	height: 85px;
+	text-align: center;
+	margin-top: 4px;
 	
 }
 	
 .archivePostTitleVoluntariado a{
     line-height: 1em;
     text-transform: uppercase;
-	color: white;
+	color: rgba(255, 255, 255, 0.93);
 	font-size:17px;
 }
 
 	
 .fecha{
-	text-align: left;
-	font-size: 12px;
+	text-align: center;
+	font-size: 14px;
 	}
 	
 .email-contacto a{
@@ -175,7 +181,21 @@ footer .somos_menu_container {
     font-style: italic;
     text-decoration: underline;
 	}
+	
+.cantidadVoluntarios {
+	margin-top:10px;
+	}
 
+.verMas{
+	float:right;
+	}
+	
+.verMas a{
+	color:white;
+	}
+	
+	
+	
 /*.email-contacto a:nth-child(4n+1){
 	color:grey;
 	}*/
