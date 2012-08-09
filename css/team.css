@@ -120,17 +120,17 @@ footer .somos_menu_container {
 	bottom: 10px;
 }
 
-.areavoluntariado {
+/*.areavoluntariado {
 	font-size:15px;
-	font-style:italic;
+	font-style: normal;
 	font-weight:500;
 	text-align: end;
 	margin-top: 20px;
-	}
+	}*/
 	
 .areavoluntariado {
-	font-size:15px;
-	font-style:italic;
+	font-size: 16px;
+	font-style: normal;
 	font-weight:500;
 	text-align: left;
 	margin-top: 10px;
@@ -152,7 +152,7 @@ footer .somos_menu_container {
 	overflow:hidden;        
 	/*white-space:nowrap;*/
 	color: white;
-	height: 60px;
+	height: 58px;
 	
 }
 	
@@ -166,12 +166,14 @@ footer .somos_menu_container {
 	
 .fecha{
 	text-align: left;
-	font-size: 11px;
+	font-size: 12px;
 	}
 	
 .email-contacto a{
 	color:white;
-	font-style: italic;
+	font-size: 12px;
+    font-style: italic;
+    text-decoration: underline;
 	}
 
 /*.email-contacto a:nth-child(4n+1){

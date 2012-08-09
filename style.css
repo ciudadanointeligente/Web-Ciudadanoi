@@ -691,7 +691,7 @@ font-size: 13px;
 
 .infoboard .widget:nth-child(n+3) {margin-right: 0; min-height: 200px;}
 
-.infoboard .widget, .displayvoluntariados li:nth-child(4n){margin-right: 0; min-height: 200px;}
+/*.infoboard .widget, .displayvoluntariados li:nth-child(4n){margin-right: 0; min-height: 200px;}*/
 
 .infoboard .widget:nth-child(n+4) {
 	margin: 0 0 2.2em 0;
@@ -700,9 +700,8 @@ font-size: 13px;
 	width: 28%;
 }
 
-.infoboard .widget, .displayvoluntariados li {
+.infoboard .widget, .item {
 	float: left;
-	width: 28%;
 	clear: none;
 	margin: 0 2% 1.6em 0;
 	position: relative;
@@ -725,9 +724,8 @@ font-size: 13px;
 	height: 280px;
 	margin: 10px;
 	float: left;
-	background-color: grey;
 	padding: 10px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
  
@@ -740,11 +738,12 @@ font-size: 13px;
  
   /*post-it amarillo */
   .item:nth-child(4n+1){
-	 background-color:#FFCC60;
+	 background-color:#F8BD3C;
+	  color:white;
  }
  
 .item:nth-child(4n+1) .email-contacto a{
-	color:grey;
+	color:white;
 	}
 	
  /*post it burdeo */
@@ -761,13 +760,49 @@ font-size: 13px;
 
 
 .infoPostIt hr {
-	margin-bottom: 15px;
-    margin-top: 15px;
+	margin-bottom: 9px;
+    margin-top: 9px;
 	}
 	
-.infoboard .widget::before, .infoboard .widget::after, .displayvoluntariados li::before, .displayvoluntariados li::after {
+.infoboard .widget::before, .infoboard .widget::after {
 	position: absolute;
 	width: 42%;
+	height: 10px;
+	content: '';
+	left: 5px;
+	bottom: 5px;
+	background: transparent;
+	-webkit-transform: skew(-5deg) rotate(-5deg);
+	-moz-transform: rotate(-5deg) skew(-5deg) ;
+	-ms-transform: skew(-5deg) rotate(-5deg);
+	-o-transform: skew(-5deg) rotate(-5deg);
+	transform: skew(-5deg) rotate(-5deg);
+	-webkit-box-shadow: 0 6px 13px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 6px 13px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 6px 13px rgba(0, 0, 0, 0.2);
+	z-index: -1;
+	display: block;
+}
+
+.infoboard .widget:after {  
+	left: auto;
+	right: 5px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}  
+
+/*#container .item{
+	z-index:3
+	}*/
+
+
+
+#container .item::before, #container .item::after{
+	position: absolute;
+	width: 40%;
 	height: 10px;
 	content: '';
 	left: 5px;
@@ -784,8 +819,8 @@ font-size: 13px;
 	z-index: -1;
 	display: block;
 }
-.infoboard .widget:after, .displayvoluntariados li:after  
-{  
+
+#container .item:after {  
 	left: auto;
 	right: 5px;
 	-webkit-transform: skew(5deg) rotate(5deg);
@@ -795,9 +830,18 @@ font-size: 13px;
 	transform: skew(5deg) rotate(5deg);
 }  
 
+/*#container .item:before {
+	right: auto;
+	left: 5px;
+	-webkit-transform: skew(5deg) rotate(5deg);
+	-moz-transform: skew(5deg) rotate(5deg);
+	-ms-transform: skew(5deg) rotate(5deg);
+	-o-transform: skew(5deg) rotate(5deg);
+	transform: skew(5deg) rotate(5deg);
+}  */
 
 
-.infoboard .widget .textwidget {z-index: 4;}
+.infoboard .widget .textwidget .item{z-index: 4;}
 
 .infoboard .widget h3 {
 	font-family: 'SeccaStdDemoBold';

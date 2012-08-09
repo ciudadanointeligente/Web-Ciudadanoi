@@ -25,13 +25,13 @@
                  
                  <div class="fecha"> Hasta: <?php echo(types_render_field("termino", array('show_name' => 'false'))); ?> </div>
              	 <hr>
-             	 
-					Cantidad de voluntarios:
+             	
+                <div class="email-contacto">Interesados contactarse a: <?php echo(types_render_field("email-contacto", array('show_name' => 'false'))); ?> </div> </a> 
+                <hr>
+                 
+                Cantidad de voluntarios:
                   <div class="numerovol">  <?php echo(types_render_field("numero-vol", array('show_name' => 'false'))); ?>
                 </div> 
-                
-                <div class="email-contacto"><?php echo(types_render_field("email-contacto", array('show_name' => 'false'))); ?> </div> </a> 
-                
                  </header>
                 
                  
